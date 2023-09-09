@@ -1,0 +1,45 @@
+body {
+    background-color: #ffffff;
+    font-family: Bahnschrift Condensed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.circulo {
+    width: 250px;
+    height: 210px;
+    background-color: #ff0000;
+    margin: 40px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000000;
+    border: 5px solid #000000;
+    border-radius: 50%;
+}
+
+.circulo img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center 0px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    background-color: #f2f2f2; 
+}
+

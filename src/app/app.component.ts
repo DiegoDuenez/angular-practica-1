@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myApp';
+  title = '¿Que te parecio la comida?';
+
+  source = 'src/assets/1.jpg'
 }
